@@ -10,6 +10,7 @@ tax = charge * .06
 monthly_charge = charge + tax
 annual_charge = monthly_charge * 12
 
-print("Monthly tax: ",tax)
-print("Monthly charge: ",monthly_charge)
-print("Annual charge: ",annual_charge)
+print("Bill: " + expense + " -------- Before Tax: $",charge,sep='')
+print("Monthly tax: $",format(tax,',.2f'),sep='')
+print("Monthly charge: $",format(monthly_charge,',.2f'))
+print("Annual charge: $",format(annual_charge,',.2f'))
